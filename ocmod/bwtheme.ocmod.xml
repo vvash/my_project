@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+<name>Brand and Web template</name>
+<code>tw</code>
+<version>1.0</version>
+<author>ruweb24@gmail.com (Slait)</author>
+<link>http://www.bwtheme.ru</link>
+
+<file path="catalog/controller/product/product.php" info="Карусель в карточке товара">
+	<operation error="skip">
+	<search><![CDATA[$this->document->addStyle('catalog/view/javascript/jquery/datetimepicker/bootstrap-datetimepicker.min.css');]]></search>
+	<add position="after"><![CDATA[
+			//Brand and Web template
+			$this->document->addScript('catalog/view/javascript/jquery/owl-carousel/owl.carousel.min.js');
+			$this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+			
+	]]></add>
+	</operation>
+</file>
+
+<file path="catalog/controller/product/search.php" info="Поиск в описании">
+    <operation error="skip">
+      <search position="replace"><![CDATA['filter_description'  => $description,]]></search>
+      <add><![CDATA['filter_description'  => true,]]></add>
+    </operation>
+</file>
+
+<file path="catalog/controller/common/footer.php" >
+    <operation error="skip">
+      <search position="replace"><![CDATA[$this->load->model('catalog/information');]]></search>
+      <add><![CDATA[
+      $this->load->model('catalog/information');
+
+			$bw_footer_vk = $this->config->get('bw_footer_seti_vk');
+			if(empty($bw_footer_vk[$this->language->get('code')])) {
+				$data['bw_footer_seti_vk'] = false;
+			} else if (isset($bw_footer_vk[$this->language->get('code')])) {
+				$data['bw_footer_seti_vk'] = html_entity_decode($bw_footer_vk[$this->language->get('code')], ENT_QUOTES, 'UTF-8');
+			}
+      ]]></add>
+    </operation>
+</file>
+
+	
+</modification>

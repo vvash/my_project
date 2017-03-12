@@ -1,0 +1,1075 @@
+2017-02-09 22:11:01 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT *, (SELECT ug.name FROM `txgn_user_group` ug WHERE ug.user_group_id = u.user_group_id) AS user_group FROM `txgn_user` u WHERE u.user_id = '1' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-09 22:11:01 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/user/user.php on line 30
+2017-02-09 22:11:01 - PHP Notice:  Undefined variable: firstname in /home/u340150893/public_html/admin/view/template/common/profile.tpl on line 10
+2017-02-09 22:11:01 - PHP Notice:  Undefined variable: lastname in /home/u340150893/public_html/admin/view/template/common/profile.tpl on line 10
+2017-02-09 22:11:01 - PHP Notice:  Undefined variable: user_group in /home/u340150893/public_html/admin/view/template/common/profile.tpl on line 11
+2017-02-09 22:11:01 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM `txgn_order` WHERE order_status_id > '0' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-09 22:11:01 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/sale/order.php on line 307
+2017-02-09 22:11:01 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM `txgn_order` WHERE (order_status_id = '5' OR order_status_id = '3') in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-09 22:11:01 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/sale/order.php on line 307
+2017-02-09 22:11:01 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM `txgn_order` WHERE (order_status_id = '5' OR order_status_id = '1' OR order_status_id = '2' OR order_status_id = '12' OR order_status_id = '3') in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-09 22:11:01 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/sale/order.php on line 307
+2017-02-09 22:11:01 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT order_status_id, name FROM txgn_order_status WHERE language_id = '2' ORDER BY name in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-09 22:11:01 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/localisation/order_status.php on line 72
+2017-02-09 22:11:01 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/controller/common/stats.php on line 36
+2017-02-09 22:11:01 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM `txgn_order` WHERE (order_status_id = '0') in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-09 22:11:01 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/sale/order.php on line 307
+2017-02-11 2:35:54 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 6
+2017-02-11 2:35:54 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 6
+2017-02-11 2:35:54 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 6
+2017-02-11 2:38:39 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 2:38:39 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 2:38:39 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 2:40:09 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 2:40:09 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 2:40:09 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:18:39 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:18:39 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:18:39 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:19:39 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:19:39 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:19:39 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:23:03 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:23:03 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:23:03 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:23:41 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:23:41 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:23:41 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:24:35 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:24:35 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:24:35 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:25:57 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:25:57 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:25:57 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:29:09 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:29:09 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:29:09 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:30:35 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:30:35 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:30:35 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:32:15 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:32:15 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:32:15 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:32:51 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:32:51 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:32:51 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:33:56 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:33:56 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:33:56 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:35:31 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:35:31 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:35:31 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:37:32 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:37:32 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:37:32 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:37:45 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:37:45 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:37:45 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:38:08 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:38:08 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:38:08 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:38:20 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:38:20 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:38:20 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:38:32 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:38:32 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:38:32 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:38:43 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:38:43 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:38:43 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:39:39 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:39:39 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:39:39 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:39:50 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:39:50 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:39:50 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:40:08 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:40:08 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:40:08 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:40:44 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:40:44 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:40:44 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:40:55 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:40:55 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:40:55 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:41:10 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:41:10 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:41:10 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:41:29 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:41:29 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:41:29 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:42:28 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:42:28 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:42:28 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:44:01 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:44:01 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:44:01 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:50:35 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:50:35 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:50:35 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:52:01 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:52:01 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:52:01 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:53:04 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:53:04 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:53:04 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:54:08 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:54:08 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:54:08 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:55:21 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:55:21 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:55:21 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:56:44 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:56:44 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:56:44 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:57:35 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:57:35 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:57:35 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:58:23 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:58:23 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:58:23 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:59:50 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:59:50 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 22:59:50 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 23:00:53 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 23:00:53 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 23:00:53 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 23:01:31 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 23:01:31 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-11 23:01:31 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 15:46:13 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM `txgn_language` in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 15:46:13 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/index.php on line 115
+2017-02-12 15:46:13 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/index.php on line 115
+2017-02-12 15:46:13 - PHP Notice:  Undefined index: ru in /home/u340150893/public_html/admin/index.php on line 119
+2017-02-12 15:46:13 - PHP Notice:  Undefined index: ru in /home/u340150893/public_html/admin/index.php on line 122
+2017-02-12 15:46:13 - PHP Notice:  Undefined index: ru in /home/u340150893/public_html/admin/index.php on line 123
+2017-02-12 15:46:13 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_currency in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 15:46:13 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/system/library/currency.php on line 15
+2017-02-12 15:46:13 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/system/library/currency.php on line 15
+2017-02-12 15:46:13 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_weight_class wc LEFT JOIN txgn_weight_class_description wcd ON (wc.weight_class_id = wcd.weight_class_id) WHERE wcd.language_id = '0' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 15:46:13 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/system/library/weight.php on line 11
+2017-02-12 15:46:13 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/system/library/weight.php on line 11
+2017-02-12 15:46:13 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_length_class mc LEFT JOIN txgn_length_class_description mcd ON (mc.length_class_id = mcd.length_class_id) WHERE mcd.language_id = '0' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 15:46:13 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/system/library/length.php on line 11
+2017-02-12 15:46:13 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/system/library/length.php on line 11
+2017-02-12 15:46:13 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_user WHERE user_id = '1' AND status = '1' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 15:46:13 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/system/library/user.php on line 15
+2017-02-12 15:46:13 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_extension WHERE `type` = 'openbay' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 15:46:13 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/system/library/openbay.php on line 119
+2017-02-12 15:46:13 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/system/library/openbay.php on line 119
+2017-02-12 15:46:14 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_event in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 15:46:14 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/index.php on line 150
+2017-02-12 15:46:14 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/index.php on line 150
+2017-02-12 15:46:18 - PHP Warning:  fread(): Length parameter must be greater than 0 in /home/u340150893/public_html/system/library/cache/file.php on line 32
+2017-02-12 15:53:24 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 6
+2017-02-12 15:53:24 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 6
+2017-02-12 15:53:24 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 6
+2017-02-12 15:53:55 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_product_special WHERE product_id = '76' ORDER BY priority, price in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 15:53:56 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 541
+2017-02-12 15:53:56 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/controller/catalog/product.php on line 357
+2017-02-12 15:53:56 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_product_special WHERE product_id = '58' ORDER BY priority, price in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 15:53:56 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 541
+2017-02-12 15:53:56 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/controller/catalog/product.php on line 357
+2017-02-12 15:53:56 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_product_special WHERE product_id = '52' ORDER BY priority, price in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 15:53:56 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 541
+2017-02-12 15:53:56 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/controller/catalog/product.php on line 357
+2017-02-12 15:53:56 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_product_special WHERE product_id = '53' ORDER BY priority, price in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 15:53:56 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 541
+2017-02-12 15:53:56 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/controller/catalog/product.php on line 357
+2017-02-12 15:53:56 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_product_special WHERE product_id = '55' ORDER BY priority, price in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 15:53:56 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 541
+2017-02-12 15:53:56 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/controller/catalog/product.php on line 357
+2017-02-12 15:53:56 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_product_special WHERE product_id = '50' ORDER BY priority, price in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 15:53:56 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 541
+2017-02-12 15:53:56 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/controller/catalog/product.php on line 357
+2017-02-12 15:53:56 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_product_special WHERE product_id = '51' ORDER BY priority, price in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 15:53:56 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 541
+2017-02-12 15:53:56 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/controller/catalog/product.php on line 357
+2017-02-12 15:53:56 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_product_special WHERE product_id = '54' ORDER BY priority, price in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 15:53:56 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 541
+2017-02-12 15:53:56 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/controller/catalog/product.php on line 357
+2017-02-12 15:53:56 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_product_special WHERE product_id = '57' ORDER BY priority, price in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 15:53:56 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 541
+2017-02-12 15:53:56 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/controller/catalog/product.php on line 357
+2017-02-12 15:53:56 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_product_special WHERE product_id = '66' ORDER BY priority, price in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 15:53:56 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 541
+2017-02-12 15:53:56 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/controller/catalog/product.php on line 357
+2017-02-12 15:53:56 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_product_special WHERE product_id = '67' ORDER BY priority, price in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 15:53:56 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 541
+2017-02-12 15:53:56 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/controller/catalog/product.php on line 357
+2017-02-12 15:53:56 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_product_special WHERE product_id = '70' ORDER BY priority, price in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 15:53:56 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 541
+2017-02-12 15:53:56 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/controller/catalog/product.php on line 357
+2017-02-12 15:53:56 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_product_special WHERE product_id = '71' ORDER BY priority, price in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 15:53:56 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 541
+2017-02-12 15:53:56 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/controller/catalog/product.php on line 357
+2017-02-12 15:53:56 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_product_special WHERE product_id = '72' ORDER BY priority, price in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 15:53:56 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 541
+2017-02-12 15:53:56 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/controller/catalog/product.php on line 357
+2017-02-12 15:53:56 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_product_special WHERE product_id = '73' ORDER BY priority, price in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 15:53:56 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 541
+2017-02-12 15:53:56 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/controller/catalog/product.php on line 357
+2017-02-12 15:53:56 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_product_special WHERE product_id = '68' ORDER BY priority, price in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 15:53:56 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 541
+2017-02-12 15:53:56 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/controller/catalog/product.php on line 357
+2017-02-12 15:53:56 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_product_special WHERE product_id = '69' ORDER BY priority, price in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 15:53:56 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 541
+2017-02-12 15:53:56 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/controller/catalog/product.php on line 357
+2017-02-12 15:53:56 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_product_special WHERE product_id = '75' ORDER BY priority, price in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 15:53:56 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 541
+2017-02-12 15:53:56 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/controller/catalog/product.php on line 357
+2017-02-12 15:53:56 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_product_special WHERE product_id = '74' ORDER BY priority, price in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 15:53:56 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 541
+2017-02-12 15:53:56 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/controller/catalog/product.php on line 357
+2017-02-12 15:53:56 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_product_special WHERE product_id = '63' ORDER BY priority, price in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 15:53:56 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 541
+2017-02-12 15:53:56 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/controller/catalog/product.php on line 357
+2017-02-12 15:53:56 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM `txgn_order` WHERE (order_status_id = '5' OR order_status_id = '1' OR order_status_id = '2' OR order_status_id = '12' OR order_status_id = '3') in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 15:53:56 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/sale/order.php on line 307
+2017-02-12 15:53:56 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM `txgn_order` WHERE (order_status_id = '5' OR order_status_id = '3') in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 15:53:56 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/sale/order.php on line 307
+2017-02-12 15:53:56 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM `txgn_return`r WHERE r.return_status_id = '2' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 15:53:56 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/sale/return.php on line 146
+2017-02-12 15:53:56 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM `txgn_customer_online` co LEFT JOIN txgn_customer c ON (co.customer_id = c.customer_id) in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 15:53:56 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/report/customer.php on line 316
+2017-02-12 15:53:56 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM txgn_customer WHERE approved = '0' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 15:53:56 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/customer/customer.php on line 310
+2017-02-12 15:53:56 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(DISTINCT p.product_id) AS total FROM txgn_product p LEFT JOIN txgn_product_description pd ON (p.product_id = pd.product_id) WHERE pd.language_id = '2' AND p.quantity = '0' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 15:53:56 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 637
+2017-02-12 15:53:56 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM txgn_review r LEFT JOIN txgn_product_description pd ON (r.product_id = pd.product_id) WHERE pd.language_id = '2' AND r.status = '0' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 15:53:56 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/review.php on line 120
+2017-02-12 15:53:56 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM txgn_affiliate WHERE approved = '0' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 15:53:56 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/marketing/affiliate.php on line 194
+2017-02-12 15:53:56 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_store ORDER BY url in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 15:53:56 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/setting/store.php on line 57
+2017-02-12 15:53:56 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/controller/common/header.php on line 128
+2017-02-12 15:53:56 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT *, (SELECT ug.name FROM `txgn_user_group` ug WHERE ug.user_group_id = u.user_group_id) AS user_group FROM `txgn_user` u WHERE u.user_id = '1' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 15:53:56 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/user/user.php on line 30
+2017-02-12 15:53:56 - PHP Notice:  Undefined variable: firstname in /home/u340150893/public_html/admin/view/template/common/profile.tpl on line 10
+2017-02-12 15:53:56 - PHP Notice:  Undefined variable: lastname in /home/u340150893/public_html/admin/view/template/common/profile.tpl on line 10
+2017-02-12 15:53:56 - PHP Notice:  Undefined variable: user_group in /home/u340150893/public_html/admin/view/template/common/profile.tpl on line 11
+2017-02-12 15:53:56 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM `txgn_order` WHERE order_status_id > '0' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 15:53:56 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/sale/order.php on line 307
+2017-02-12 15:53:56 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM `txgn_order` WHERE (order_status_id = '5' OR order_status_id = '3') in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 15:53:56 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/sale/order.php on line 307
+2017-02-12 15:53:56 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM `txgn_order` WHERE (order_status_id = '5' OR order_status_id = '1' OR order_status_id = '2' OR order_status_id = '12' OR order_status_id = '3') in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 15:53:56 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/sale/order.php on line 307
+2017-02-12 15:53:56 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT order_status_id, name FROM txgn_order_status WHERE language_id = '2' ORDER BY name in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 15:53:56 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/localisation/order_status.php on line 72
+2017-02-12 15:53:56 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/controller/common/stats.php on line 36
+2017-02-12 15:53:56 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM `txgn_order` WHERE (order_status_id = '0') in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 15:53:56 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/sale/order.php on line 307
+2017-02-12 15:53:56 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 6
+2017-02-12 15:53:56 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 6
+2017-02-12 15:53:56 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 6
+2017-02-12 15:54:57 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 15:54:57 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 15:54:57 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 15:56:12 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 15:56:12 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 15:56:12 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 15:57:17 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 15:57:19 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 15:57:19 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 15:58:01 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 15:58:06 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 15:58:06 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 15:58:52 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 15:58:52 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 15:58:52 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 15:59:33 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 15:59:42 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 15:59:42 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 15:59:55 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 15:59:55 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 15:59:55 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:00:58 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:00:58 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:00:58 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:01:10 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:01:10 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:01:10 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:01:45 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:01:45 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:01:45 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:02:58 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:02:58 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:02:58 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:03:53 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:03:53 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:03:53 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:04:14 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM `txgn_language` in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 16:04:14 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/index.php on line 115
+2017-02-12 16:04:14 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/index.php on line 115
+2017-02-12 16:04:14 - PHP Notice:  Undefined index: ru in /home/u340150893/public_html/admin/index.php on line 119
+2017-02-12 16:04:14 - PHP Notice:  Undefined index: ru in /home/u340150893/public_html/admin/index.php on line 122
+2017-02-12 16:04:14 - PHP Notice:  Undefined index: ru in /home/u340150893/public_html/admin/index.php on line 123
+2017-02-12 16:04:14 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_currency in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 16:04:14 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/system/library/currency.php on line 15
+2017-02-12 16:04:14 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/system/library/currency.php on line 15
+2017-02-12 16:04:14 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_weight_class wc LEFT JOIN txgn_weight_class_description wcd ON (wc.weight_class_id = wcd.weight_class_id) WHERE wcd.language_id = '0' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 16:04:14 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/system/library/weight.php on line 11
+2017-02-12 16:04:14 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/system/library/weight.php on line 11
+2017-02-12 16:04:14 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_length_class mc LEFT JOIN txgn_length_class_description mcd ON (mc.length_class_id = mcd.length_class_id) WHERE mcd.language_id = '0' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 16:04:14 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/system/library/length.php on line 11
+2017-02-12 16:04:14 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/system/library/length.php on line 11
+2017-02-12 16:04:14 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_user WHERE user_id = '1' AND status = '1' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 16:04:14 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/system/library/user.php on line 15
+2017-02-12 16:04:14 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_extension WHERE `type` = 'openbay' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 16:04:14 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/system/library/openbay.php on line 119
+2017-02-12 16:04:14 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/system/library/openbay.php on line 119
+2017-02-12 16:04:14 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_event in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 16:04:14 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/index.php on line 150
+2017-02-12 16:04:14 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/index.php on line 150
+2017-02-12 16:05:08 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:05:08 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:05:08 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:10:50 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:10:50 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:10:50 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:11:26 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:11:26 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:11:26 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:12:12 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:12:12 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:12:12 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:12:22 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:12:22 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:12:22 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:12:56 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:12:56 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:12:56 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:13:41 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:13:41 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:13:41 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:15:34 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:15:34 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:15:34 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:16:17 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:16:17 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:16:17 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:16:56 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:16:56 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:16:56 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:17:30 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:17:30 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:17:30 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:19:32 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:19:32 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:19:32 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:20:06 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:20:06 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:20:06 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:20:58 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:20:58 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:20:58 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:23:14 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:23:14 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:23:14 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:24:09 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:24:09 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:24:09 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:25:08 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:25:08 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:25:08 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:26:11 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:26:11 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:26:11 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:26:47 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:26:47 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:26:47 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:28:36 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:28:36 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:28:36 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:29:34 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:29:34 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:29:34 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:31:18 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:31:18 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:31:18 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:31:43 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_product_to_store WHERE product_id = '107' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 16:31:43 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 573
+2017-02-12 16:31:43 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/model/catalog/product.php on line 573
+2017-02-12 16:31:43 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM `txgn_recurring` r LEFT JOIN txgn_recurring_description rd ON (r.recurring_id = rd.recurring_id) WHERE rd.language_id = '2' ORDER BY rd.name ASC in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 16:31:43 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/recurring.php on line 112
+2017-02-12 16:31:43 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM `txgn_product_recurring` WHERE product_id = '107' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 16:31:43 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 607
+2017-02-12 16:31:43 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT stock_status_id, name FROM txgn_stock_status WHERE language_id = '2' ORDER BY name in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 16:31:43 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/localisation/stock_status.php on line 72
+2017-02-12 16:31:43 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_weight_class wc LEFT JOIN txgn_weight_class_description wcd ON (wc.weight_class_id = wcd.weight_class_id) WHERE wcd.language_id = '2' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 16:31:43 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/localisation/weight_class.php on line 77
+2017-02-12 16:31:43 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_length_class lc LEFT JOIN txgn_length_class_description lcd ON (lc.length_class_id = lcd.length_class_id) WHERE lcd.language_id = '2' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 16:31:43 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/localisation/length_class.php on line 77
+2017-02-12 16:31:43 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT DISTINCT *, (SELECT keyword FROM txgn_url_alias WHERE query = 'manufacturer_id=0') AS keyword FROM txgn_manufacturer WHERE manufacturer_id = '0' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 16:31:43 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/manufacturer.php on line 74
+2017-02-12 16:31:43 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_product_to_category WHERE product_id = '107' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 16:31:43 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 439
+2017-02-12 16:31:43 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/model/catalog/product.php on line 439
+2017-02-12 16:31:43 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_product_filter WHERE product_id = '107' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 16:31:43 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 451
+2017-02-12 16:31:43 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/model/catalog/product.php on line 451
+2017-02-12 16:31:43 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT attribute_id FROM txgn_product_attribute WHERE product_id = '107' GROUP BY attribute_id in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 16:31:43 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 463
+2017-02-12 16:31:43 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/model/catalog/product.php on line 463
+2017-02-12 16:31:43 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM `txgn_product_option` po LEFT JOIN `txgn_option` o ON (po.option_id = o.option_id) LEFT JOIN `txgn_option_description` od ON (o.option_id = od.option_id) WHERE po.product_id = '107' AND od.language_id = '2' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 16:31:43 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 486
+2017-02-12 16:31:43 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/model/catalog/product.php on line 486
+2017-02-12 16:31:43 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_customer_group cg LEFT JOIN txgn_customer_group_description cgd ON (cg.customer_group_id = cgd.customer_group_id) WHERE cgd.language_id = '2' ORDER BY cgd.name ASC in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 16:31:43 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/customer/customer_group.php on line 71
+2017-02-12 16:31:43 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_product_discount WHERE product_id = '107' ORDER BY quantity, priority, price in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 16:31:43 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 535
+2017-02-12 16:31:43 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/controller/catalog/product.php on line 1163
+2017-02-12 16:31:43 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_product_special WHERE product_id = '107' ORDER BY priority, price in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 16:31:43 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 541
+2017-02-12 16:31:43 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/controller/catalog/product.php on line 1184
+2017-02-12 16:31:43 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_product_image WHERE product_id = '107' ORDER BY sort_order ASC in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 16:31:43 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 529
+2017-02-12 16:31:43 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/controller/catalog/product.php on line 1205
+2017-02-12 16:31:43 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_product_to_download WHERE product_id = '107' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 16:31:43 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 561
+2017-02-12 16:31:43 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/model/catalog/product.php on line 561
+2017-02-12 16:31:43 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_product_related WHERE product_id = '107' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 16:31:43 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 597
+2017-02-12 16:31:43 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/model/catalog/product.php on line 597
+2017-02-12 16:31:43 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_product_reward WHERE product_id = '107' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 16:31:43 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 549
+2017-02-12 16:31:43 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/model/catalog/product.php on line 549
+2017-02-12 16:31:43 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_product_to_layout WHERE product_id = '107' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 16:31:43 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 585
+2017-02-12 16:31:43 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/model/catalog/product.php on line 585
+2017-02-12 16:31:43 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_layout ORDER BY name ASC in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 16:31:43 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/design/layout.php on line 101
+2017-02-12 16:31:43 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM `txgn_order` WHERE (order_status_id = '5' OR order_status_id = '1' OR order_status_id = '2' OR order_status_id = '12' OR order_status_id = '3') in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 16:31:43 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/sale/order.php on line 307
+2017-02-12 16:31:43 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM `txgn_order` WHERE (order_status_id = '5' OR order_status_id = '3') in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 16:31:43 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/sale/order.php on line 307
+2017-02-12 16:31:43 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM `txgn_return`r WHERE r.return_status_id = '2' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 16:31:43 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/sale/return.php on line 146
+2017-02-12 16:31:43 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM `txgn_customer_online` co LEFT JOIN txgn_customer c ON (co.customer_id = c.customer_id) in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 16:31:43 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/report/customer.php on line 316
+2017-02-12 16:31:43 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM txgn_customer WHERE approved = '0' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 16:31:43 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/customer/customer.php on line 310
+2017-02-12 16:31:43 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(DISTINCT p.product_id) AS total FROM txgn_product p LEFT JOIN txgn_product_description pd ON (p.product_id = pd.product_id) WHERE pd.language_id = '2' AND p.quantity = '0' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 16:31:43 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 637
+2017-02-12 16:31:43 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM txgn_review r LEFT JOIN txgn_product_description pd ON (r.product_id = pd.product_id) WHERE pd.language_id = '2' AND r.status = '0' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 16:31:43 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/review.php on line 120
+2017-02-12 16:31:43 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM txgn_affiliate WHERE approved = '0' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 16:31:43 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/marketing/affiliate.php on line 194
+2017-02-12 16:31:43 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_store ORDER BY url in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 16:31:43 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/setting/store.php on line 57
+2017-02-12 16:31:43 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/controller/common/header.php on line 128
+2017-02-12 16:31:43 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT *, (SELECT ug.name FROM `txgn_user_group` ug WHERE ug.user_group_id = u.user_group_id) AS user_group FROM `txgn_user` u WHERE u.user_id = '1' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 16:31:43 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/user/user.php on line 30
+2017-02-12 16:31:43 - PHP Notice:  Undefined variable: firstname in /home/u340150893/public_html/admin/view/template/common/profile.tpl on line 10
+2017-02-12 16:31:43 - PHP Notice:  Undefined variable: lastname in /home/u340150893/public_html/admin/view/template/common/profile.tpl on line 10
+2017-02-12 16:31:43 - PHP Notice:  Undefined variable: user_group in /home/u340150893/public_html/admin/view/template/common/profile.tpl on line 11
+2017-02-12 16:31:43 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM `txgn_order` WHERE order_status_id > '0' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 16:31:43 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/sale/order.php on line 307
+2017-02-12 16:31:43 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM `txgn_order` WHERE (order_status_id = '5' OR order_status_id = '3') in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 16:31:43 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/sale/order.php on line 307
+2017-02-12 16:31:43 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM `txgn_order` WHERE (order_status_id = '5' OR order_status_id = '1' OR order_status_id = '2' OR order_status_id = '12' OR order_status_id = '3') in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 16:31:43 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/sale/order.php on line 307
+2017-02-12 16:31:43 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT order_status_id, name FROM txgn_order_status WHERE language_id = '2' ORDER BY name in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 16:31:43 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/localisation/order_status.php on line 72
+2017-02-12 16:31:43 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/controller/common/stats.php on line 36
+2017-02-12 16:31:43 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM `txgn_order` WHERE (order_status_id = '0') in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 16:31:43 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/sale/order.php on line 307
+2017-02-12 16:31:43 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/view/template/catalog/product_form.tpl on line 207
+2017-02-12 16:31:43 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/view/template/catalog/product_form.tpl on line 279
+2017-02-12 16:31:43 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/view/template/catalog/product_form.tpl on line 299
+2017-02-12 16:31:43 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/view/template/catalog/product_form.tpl on line 673
+2017-02-12 16:31:43 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/view/template/catalog/product_form.tpl on line 860
+2017-02-12 16:31:43 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/view/template/catalog/product_form.tpl on line 884
+2017-02-12 16:31:43 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/view/template/catalog/product_form.tpl on line 1294
+2017-02-12 16:31:43 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/view/template/catalog/product_form.tpl on line 1321
+2017-02-12 16:31:43 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/view/template/catalog/product_form.tpl on line 1366
+2017-02-12 16:31:43 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/view/template/catalog/product_form.tpl on line 1373
+2017-02-12 16:32:22 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:32:22 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:32:22 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:33:29 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:33:29 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:33:29 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:34:23 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:34:23 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:34:23 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:34:57 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:34:57 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:34:57 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:35:33 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:35:33 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:35:33 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:36:17 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:36:17 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:36:17 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:36:49 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:36:49 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:36:49 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:37:20 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:37:20 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:37:20 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:37:46 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:37:46 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:37:46 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:39:17 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:39:17 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:39:17 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:39:49 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:39:49 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:39:49 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:41:36 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:41:36 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:41:36 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:42:11 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:42:11 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 16:42:11 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:40:42 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:40:42 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:40:42 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:41:23 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:41:23 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:41:23 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:41:49 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:41:49 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:41:49 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:42:00 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:42:00 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:42:00 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:42:11 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:42:11 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:42:11 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:42:42 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:42:42 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:42:42 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:42:52 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:42:52 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:42:52 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:43:02 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:43:02 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:43:02 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:43:53 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:43:53 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:43:53 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:44:09 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:44:09 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:44:09 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:44:21 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:44:21 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:44:21 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:44:35 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:44:35 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:44:35 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:55:40 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:55:40 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:55:40 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:55:49 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:55:49 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:55:49 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:56:02 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:56:02 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:56:02 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:56:12 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:56:12 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:56:12 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:56:22 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:56:22 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:56:22 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:56:33 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:56:33 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:56:33 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:56:43 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:56:43 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:56:43 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:56:58 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:56:58 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:56:58 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:57:14 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:57:14 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:57:14 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:57:33 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:57:33 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:57:33 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:58:46 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:58:46 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:58:46 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:58:54 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:58:54 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:58:54 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:59:03 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:59:03 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:59:03 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:59:12 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:59:12 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:59:12 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:59:21 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:59:21 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:59:21 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:59:44 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:59:44 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 18:59:44 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:00:19 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:00:19 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:00:19 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:01:36 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:01:41 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:01:41 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:01:55 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:01:55 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:01:55 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:02:39 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:02:39 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:02:39 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:02:52 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:02:52 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:02:52 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:03:05 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:03:05 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:03:05 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:03:19 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:03:19 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:03:19 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:03:41 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:03:41 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:03:41 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:03:54 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:03:54 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:03:54 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:04:26 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:04:26 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:04:26 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:04:42 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:04:42 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:04:42 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:04:58 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:04:58 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:04:58 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:05:12 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:05:12 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:05:12 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:05:28 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:05:28 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:05:28 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:05:43 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:05:43 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:05:43 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:05:59 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:05:59 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:05:59 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:06:13 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:06:13 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:06:13 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:07:44 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:07:44 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:07:44 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:08:30 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:08:30 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:08:30 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:08:47 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:08:47 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:08:47 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:09:05 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:09:05 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:09:05 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:09:12 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:09:12 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:09:12 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:09:40 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:09:40 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:09:40 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:09:55 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:09:55 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:09:55 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:10:10 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:10:10 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:10:10 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:10:26 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:10:26 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:10:26 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:10:41 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:10:41 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:10:41 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:12:36 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:12:36 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:12:36 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:12:52 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:12:52 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:12:52 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:13:06 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:13:06 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:13:06 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:13:38 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:13:38 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:13:38 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:13:55 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:13:55 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:13:55 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:14:19 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:14:19 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:14:19 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:14:37 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:14:37 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:14:37 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:15:09 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:15:09 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:15:09 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:15:24 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:15:24 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:15:24 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:15:44 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:15:44 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:15:44 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:16:11 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:16:11 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:16:11 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:16:34 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:16:34 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:16:34 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:17:52 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:17:52 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:17:52 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:18:08 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:18:08 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:18:08 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:19:05 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:19:05 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:19:05 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:19:37 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:19:37 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:19:37 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:19:51 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:19:51 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:19:51 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:20:05 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:20:05 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:20:05 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:20:19 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:20:19 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:20:19 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:21:00 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:21:00 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:21:00 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:21:10 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:21:10 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:21:10 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:21:19 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:21:19 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:21:19 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:21:29 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:21:29 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:21:29 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:21:37 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:21:37 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:21:37 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:21:45 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:21:45 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:21:45 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:23:43 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:23:43 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:23:43 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:23:53 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:23:53 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:23:53 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:24:13 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:24:13 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:24:13 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:24:24 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:24:24 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:24:24 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:24:33 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:24:33 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:24:33 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:24:42 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:24:42 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:24:42 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:24:50 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:24:51 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:24:51 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:25:05 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:25:05 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:25:05 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:25:23 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT *, (SELECT ug.name FROM `txgn_user_group` ug WHERE ug.user_group_id = u.user_group_id) AS user_group FROM `txgn_user` u WHERE u.user_id = '1' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 19:25:23 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/user/user.php on line 30
+2017-02-12 19:25:23 - PHP Notice:  Undefined variable: firstname in /home/u340150893/public_html/admin/view/template/common/profile.tpl on line 10
+2017-02-12 19:25:23 - PHP Notice:  Undefined variable: lastname in /home/u340150893/public_html/admin/view/template/common/profile.tpl on line 10
+2017-02-12 19:25:23 - PHP Notice:  Undefined variable: user_group in /home/u340150893/public_html/admin/view/template/common/profile.tpl on line 11
+2017-02-12 19:25:23 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM `txgn_order` WHERE order_status_id > '0' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 19:25:23 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/sale/order.php on line 307
+2017-02-12 19:25:23 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM `txgn_order` WHERE (order_status_id = '5' OR order_status_id = '3') in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 19:25:23 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/sale/order.php on line 307
+2017-02-12 19:25:23 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM `txgn_order` WHERE (order_status_id = '5' OR order_status_id = '1' OR order_status_id = '2' OR order_status_id = '12' OR order_status_id = '3') in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 19:25:23 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/sale/order.php on line 307
+2017-02-12 19:25:23 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT order_status_id, name FROM txgn_order_status WHERE language_id = '2' ORDER BY name in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 19:25:23 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/localisation/order_status.php on line 72
+2017-02-12 19:25:23 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/controller/common/stats.php on line 36
+2017-02-12 19:25:23 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM `txgn_order` WHERE (order_status_id = '0') in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 19:25:23 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/sale/order.php on line 307
+2017-02-12 19:25:23 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:25:23 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:25:23 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:26:21 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:26:21 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:26:21 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:26:45 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:26:45 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:26:45 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:26:54 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:26:54 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:26:54 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:27:03 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:27:03 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:27:03 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:27:12 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:27:12 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:27:12 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:28:34 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:28:34 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:28:34 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:29:25 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:29:25 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:29:25 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:29:45 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT *, (SELECT ug.name FROM `txgn_user_group` ug WHERE ug.user_group_id = u.user_group_id) AS user_group FROM `txgn_user` u WHERE u.user_id = '1' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 19:29:45 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/user/user.php on line 30
+2017-02-12 19:29:45 - PHP Notice:  Undefined variable: firstname in /home/u340150893/public_html/admin/view/template/common/profile.tpl on line 10
+2017-02-12 19:29:45 - PHP Notice:  Undefined variable: lastname in /home/u340150893/public_html/admin/view/template/common/profile.tpl on line 10
+2017-02-12 19:29:45 - PHP Notice:  Undefined variable: user_group in /home/u340150893/public_html/admin/view/template/common/profile.tpl on line 11
+2017-02-12 19:29:45 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM `txgn_order` WHERE order_status_id > '0' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 19:29:45 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/sale/order.php on line 307
+2017-02-12 19:29:45 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM `txgn_order` WHERE (order_status_id = '5' OR order_status_id = '3') in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 19:29:45 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/sale/order.php on line 307
+2017-02-12 19:29:45 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM `txgn_order` WHERE (order_status_id = '5' OR order_status_id = '1' OR order_status_id = '2' OR order_status_id = '12' OR order_status_id = '3') in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 19:29:45 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/sale/order.php on line 307
+2017-02-12 19:29:45 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT order_status_id, name FROM txgn_order_status WHERE language_id = '2' ORDER BY name in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 19:29:45 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/localisation/order_status.php on line 72
+2017-02-12 19:29:45 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/controller/common/stats.php on line 36
+2017-02-12 19:29:45 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM `txgn_order` WHERE (order_status_id = '0') in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 19:29:45 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/sale/order.php on line 307
+2017-02-12 19:38:48 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:38:48 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:38:48 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:41:08 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:41:08 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:41:08 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:42:44 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:42:44 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:42:44 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:43:42 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:43:42 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:43:42 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:45:25 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:45:25 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:45:25 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:46:47 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:46:47 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:46:47 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:50:03 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:50:03 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:50:03 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:51:02 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:51:02 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:51:02 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:52:32 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT *, (SELECT ug.name FROM `txgn_user_group` ug WHERE ug.user_group_id = u.user_group_id) AS user_group FROM `txgn_user` u WHERE u.user_id = '1' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 19:52:32 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/user/user.php on line 30
+2017-02-12 19:52:32 - PHP Notice:  Undefined variable: firstname in /home/u340150893/public_html/admin/view/template/common/profile.tpl on line 10
+2017-02-12 19:52:32 - PHP Notice:  Undefined variable: lastname in /home/u340150893/public_html/admin/view/template/common/profile.tpl on line 10
+2017-02-12 19:52:32 - PHP Notice:  Undefined variable: user_group in /home/u340150893/public_html/admin/view/template/common/profile.tpl on line 11
+2017-02-12 19:52:32 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM `txgn_order` WHERE order_status_id > '0' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 19:52:32 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/sale/order.php on line 307
+2017-02-12 19:52:32 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM `txgn_order` WHERE (order_status_id = '5' OR order_status_id = '3') in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 19:52:32 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/sale/order.php on line 307
+2017-02-12 19:52:32 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM `txgn_order` WHERE (order_status_id = '5' OR order_status_id = '1' OR order_status_id = '2' OR order_status_id = '12' OR order_status_id = '3') in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 19:52:32 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/sale/order.php on line 307
+2017-02-12 19:52:32 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT order_status_id, name FROM txgn_order_status WHERE language_id = '2' ORDER BY name in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 19:52:32 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/localisation/order_status.php on line 72
+2017-02-12 19:52:33 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/controller/common/stats.php on line 36
+2017-02-12 19:52:33 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM `txgn_order` WHERE (order_status_id = '0') in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 19:52:33 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/sale/order.php on line 307
+2017-02-12 19:53:37 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:53:37 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 19:53:37 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:18:29 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:18:29 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:18:29 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:19:17 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:19:17 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:19:17 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:20:37 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:20:37 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:20:37 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:21:37 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_product_to_store WHERE product_id = '134' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 20:21:37 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 573
+2017-02-12 20:21:37 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/model/catalog/product.php on line 573
+2017-02-12 20:21:37 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM `txgn_recurring` r LEFT JOIN txgn_recurring_description rd ON (r.recurring_id = rd.recurring_id) WHERE rd.language_id = '2' ORDER BY rd.name ASC in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 20:21:37 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/recurring.php on line 112
+2017-02-12 20:21:37 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM `txgn_product_recurring` WHERE product_id = '134' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 20:21:37 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 607
+2017-02-12 20:21:37 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT stock_status_id, name FROM txgn_stock_status WHERE language_id = '2' ORDER BY name in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 20:21:37 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/localisation/stock_status.php on line 72
+2017-02-12 20:21:37 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_weight_class wc LEFT JOIN txgn_weight_class_description wcd ON (wc.weight_class_id = wcd.weight_class_id) WHERE wcd.language_id = '2' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 20:21:37 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/localisation/weight_class.php on line 77
+2017-02-12 20:21:37 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_length_class lc LEFT JOIN txgn_length_class_description lcd ON (lc.length_class_id = lcd.length_class_id) WHERE lcd.language_id = '2' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 20:21:37 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/localisation/length_class.php on line 77
+2017-02-12 20:21:37 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT DISTINCT *, (SELECT keyword FROM txgn_url_alias WHERE query = 'manufacturer_id=0') AS keyword FROM txgn_manufacturer WHERE manufacturer_id = '0' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 20:21:37 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/manufacturer.php on line 74
+2017-02-12 20:21:37 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_product_to_category WHERE product_id = '134' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 20:21:37 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 439
+2017-02-12 20:21:37 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/model/catalog/product.php on line 439
+2017-02-12 20:21:37 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_product_filter WHERE product_id = '134' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 20:21:37 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 451
+2017-02-12 20:21:37 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/model/catalog/product.php on line 451
+2017-02-12 20:21:37 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT attribute_id FROM txgn_product_attribute WHERE product_id = '134' GROUP BY attribute_id in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 20:21:37 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 463
+2017-02-12 20:21:37 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/model/catalog/product.php on line 463
+2017-02-12 20:21:37 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM `txgn_product_option` po LEFT JOIN `txgn_option` o ON (po.option_id = o.option_id) LEFT JOIN `txgn_option_description` od ON (o.option_id = od.option_id) WHERE po.product_id = '134' AND od.language_id = '2' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 20:21:37 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 486
+2017-02-12 20:21:37 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/model/catalog/product.php on line 486
+2017-02-12 20:21:37 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_customer_group cg LEFT JOIN txgn_customer_group_description cgd ON (cg.customer_group_id = cgd.customer_group_id) WHERE cgd.language_id = '2' ORDER BY cgd.name ASC in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 20:21:37 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/customer/customer_group.php on line 71
+2017-02-12 20:21:37 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_product_discount WHERE product_id = '134' ORDER BY quantity, priority, price in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 20:21:37 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 535
+2017-02-12 20:21:37 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/controller/catalog/product.php on line 1163
+2017-02-12 20:21:37 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_product_special WHERE product_id = '134' ORDER BY priority, price in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 20:21:37 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 541
+2017-02-12 20:21:37 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/controller/catalog/product.php on line 1184
+2017-02-12 20:21:37 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_product_image WHERE product_id = '134' ORDER BY sort_order ASC in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 20:21:37 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 529
+2017-02-12 20:21:37 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/controller/catalog/product.php on line 1205
+2017-02-12 20:21:37 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_product_to_download WHERE product_id = '134' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 20:21:37 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 561
+2017-02-12 20:21:37 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/model/catalog/product.php on line 561
+2017-02-12 20:21:37 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_product_related WHERE product_id = '134' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 20:21:37 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 597
+2017-02-12 20:21:37 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/model/catalog/product.php on line 597
+2017-02-12 20:21:37 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_product_reward WHERE product_id = '134' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 20:21:37 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 549
+2017-02-12 20:21:37 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/model/catalog/product.php on line 549
+2017-02-12 20:21:37 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_product_to_layout WHERE product_id = '134' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 20:21:37 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 585
+2017-02-12 20:21:37 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/model/catalog/product.php on line 585
+2017-02-12 20:21:37 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_layout ORDER BY name ASC in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 20:21:37 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/design/layout.php on line 101
+2017-02-12 20:21:37 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM `txgn_order` WHERE (order_status_id = '5' OR order_status_id = '1' OR order_status_id = '2' OR order_status_id = '12' OR order_status_id = '3') in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 20:21:37 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/sale/order.php on line 307
+2017-02-12 20:21:37 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM `txgn_order` WHERE (order_status_id = '5' OR order_status_id = '3') in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 20:21:37 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/sale/order.php on line 307
+2017-02-12 20:21:37 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM `txgn_return`r WHERE r.return_status_id = '2' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 20:21:37 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/sale/return.php on line 146
+2017-02-12 20:21:37 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM `txgn_customer_online` co LEFT JOIN txgn_customer c ON (co.customer_id = c.customer_id) in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 20:21:37 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/report/customer.php on line 316
+2017-02-12 20:21:37 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM txgn_customer WHERE approved = '0' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 20:21:37 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/customer/customer.php on line 310
+2017-02-12 20:21:37 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(DISTINCT p.product_id) AS total FROM txgn_product p LEFT JOIN txgn_product_description pd ON (p.product_id = pd.product_id) WHERE pd.language_id = '2' AND p.quantity = '0' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 20:21:37 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/product.php on line 637
+2017-02-12 20:21:37 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM txgn_review r LEFT JOIN txgn_product_description pd ON (r.product_id = pd.product_id) WHERE pd.language_id = '2' AND r.status = '0' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 20:21:37 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/catalog/review.php on line 120
+2017-02-12 20:21:37 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM txgn_affiliate WHERE approved = '0' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 20:21:37 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/marketing/affiliate.php on line 194
+2017-02-12 20:21:37 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM txgn_store ORDER BY url in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 20:21:37 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/setting/store.php on line 57
+2017-02-12 20:21:37 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/controller/common/header.php on line 128
+2017-02-12 20:21:37 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT *, (SELECT ug.name FROM `txgn_user_group` ug WHERE ug.user_group_id = u.user_group_id) AS user_group FROM `txgn_user` u WHERE u.user_id = '1' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 20:21:37 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/user/user.php on line 30
+2017-02-12 20:21:37 - PHP Notice:  Undefined variable: firstname in /home/u340150893/public_html/admin/view/template/common/profile.tpl on line 10
+2017-02-12 20:21:37 - PHP Notice:  Undefined variable: lastname in /home/u340150893/public_html/admin/view/template/common/profile.tpl on line 10
+2017-02-12 20:21:37 - PHP Notice:  Undefined variable: user_group in /home/u340150893/public_html/admin/view/template/common/profile.tpl on line 11
+2017-02-12 20:21:37 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM `txgn_order` WHERE order_status_id > '0' in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 20:21:37 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/sale/order.php on line 307
+2017-02-12 20:21:37 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM `txgn_order` WHERE (order_status_id = '5' OR order_status_id = '3') in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 20:21:37 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/sale/order.php on line 307
+2017-02-12 20:21:37 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM `txgn_order` WHERE (order_status_id = '5' OR order_status_id = '1' OR order_status_id = '2' OR order_status_id = '12' OR order_status_id = '3') in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 20:21:37 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/sale/order.php on line 307
+2017-02-12 20:21:37 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT order_status_id, name FROM txgn_order_status WHERE language_id = '2' ORDER BY name in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 20:21:37 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/localisation/order_status.php on line 72
+2017-02-12 20:21:37 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/controller/common/stats.php on line 36
+2017-02-12 20:21:37 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT COUNT(*) AS total FROM `txgn_order` WHERE (order_status_id = '0') in /home/u340150893/public_html/system/library/db/mysqli.php on line 41
+2017-02-12 20:21:37 - PHP Notice:  Trying to get property of non-object in /home/u340150893/public_html/admin/model/sale/order.php on line 307
+2017-02-12 20:21:37 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/view/template/catalog/product_form.tpl on line 207
+2017-02-12 20:21:37 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/view/template/catalog/product_form.tpl on line 279
+2017-02-12 20:21:37 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/view/template/catalog/product_form.tpl on line 299
+2017-02-12 20:21:37 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/view/template/catalog/product_form.tpl on line 673
+2017-02-12 20:21:37 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/view/template/catalog/product_form.tpl on line 860
+2017-02-12 20:21:37 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/view/template/catalog/product_form.tpl on line 884
+2017-02-12 20:21:37 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/view/template/catalog/product_form.tpl on line 1294
+2017-02-12 20:21:37 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/view/template/catalog/product_form.tpl on line 1321
+2017-02-12 20:21:37 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/view/template/catalog/product_form.tpl on line 1366
+2017-02-12 20:21:37 - PHP Warning:  Invalid argument supplied for foreach() in /home/u340150893/public_html/admin/view/template/catalog/product_form.tpl on line 1373
+2017-02-12 20:22:31 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:22:31 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:22:31 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:23:19 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:23:19 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:23:19 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:24:36 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:24:36 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:24:36 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:27:07 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:27:07 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:27:07 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:28:25 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:28:25 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:28:25 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:29:23 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:29:23 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:29:23 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:29:41 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:29:41 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:29:41 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:30:55 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:30:55 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:30:55 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:31:54 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:31:54 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:31:54 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:33:17 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:33:17 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:33:17 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:34:06 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:34:06 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:34:06 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:34:55 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:34:55 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:34:55 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:36:21 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:36:21 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:36:21 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:37:10 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:37:10 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:37:10 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:38:03 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:38:03 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:38:03 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:39:04 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:39:04 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:39:04 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:40:35 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:40:35 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:40:35 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:41:49 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:41:49 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:41:49 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:42:42 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:42:42 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:42:42 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:43:59 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:43:59 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:43:59 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:44:44 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:44:44 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:44:44 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:46:43 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:46:43 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:46:43 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:47:48 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:47:48 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:47:48 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:48:43 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:48:43 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:48:43 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:51:15 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:51:15 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:51:15 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:51:59 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:51:59 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:51:59 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:54:01 - PHP Notice:  Undefined index: stock_status_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:54:01 - PHP Notice:  Undefined index: weight_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
+2017-02-12 20:54:01 - PHP Notice:  Undefined index: length_class_id in /home/u340150893/public_html/admin/model/catalog/product.php on line 131
